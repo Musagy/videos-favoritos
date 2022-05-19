@@ -1,0 +1,40 @@
+.modal-bg{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  z-index: 20;
+
+  display: grid;
+  place-content: center;
+}
+
+.modal{
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+  text-align: start;
+}
+.modal h1{
+  color: rgb(65, 65, 65);
+}
+.btn-sec__modal {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.post-m__modal{
+  background-color: #769ec4;
+}
+.post-d__modal{
+  background-color: #e37382;
+}
+.post-m__modal:hover{
+  background-color: #1d73c4;
+}
+.post-d__modal:hover{
+  background-color: #e84056;
+}
