@@ -1,11 +1,11 @@
 {
-  "headers":[
+  "headers": [
     {
       "source": "/(.*)",
       "headers": [
         {
-          "key" : "X-Frame-Options",
-          "value" : "SAMEORIGIN"
+          "key": "X-Frame-Options",
+          "value": "ALLOW-FROM https://www.musagy.me/portfolio OR ALLOW-FROM https://www.musagy.me/portfolio/"
         }
       ]
     }
