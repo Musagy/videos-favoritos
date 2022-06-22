@@ -2,6 +2,8 @@
 ### Proyecto personal
 # Videos favoritos
 
+![preview](https://i.imgur.com/poPmNvn.png)
+
 ## Proyecto elaborado con:
 - React js
 - Typescript
